@@ -1,0 +1,30 @@
+4 intersecting roads
+
+Each road has a cars per minute, CPM
+    road/CPM
+
+Intersection:
+    Road 1 (North)
+    Road 2 (East)
+    Road 3 (South)
+    Road 4 (West)
+
+Control methods
+    Roundabout
+        Best for low CPM, bad for high CPM
+    Stop Signs
+        Free go on no CPM, bad at low CPM
+    Traffic Lights
+        Good at high CPM, bad for middle-low CPM
+
+TOTAL CPM
+IF T/CPM >= 20
+    Traffic Lights
+        Roundabout
+            Stop Signs
+If 20 > T/CPM >= 10
+    Roundabout
+    Traffic Lights
+If T/CPM < 10
+        maybe stop sign
+    Roundabouts
