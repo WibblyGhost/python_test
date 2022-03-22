@@ -2,7 +2,7 @@
 
 **Timed challenge of 2 hours**
 
-Refer to included PDF
+![General Developer Testing Link](general-developer-testing.pdf)
 
 ## Purpose
 
